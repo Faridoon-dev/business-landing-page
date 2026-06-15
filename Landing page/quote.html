@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Quote</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Your Logo</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="quote.html">Request Quote</a>
+        </nav>
+    </header>
+
+    <div class="form-container">
+        <h2>Request a Quote</h2>
+
+        <form id="quoteForm">
+            <input type="text" placeholder="Full Name" required>
+
+            <input type="email" placeholder="Email Address" required>
+
+            <input type="tel" placeholder="Phone Number" required>
+
+            <input type="text" placeholder="Company Name">
+
+            <select required>
+                <option value="">Select Service</option>
+                <option>Web Development</option>
+                <option>Web Design</option>
+                <option>WordPress</option>
+            </select>
+
+            <textarea rows="5" placeholder="Project Details"></textarea>
+
+            <button type="submit">Submit Request</button>
+        </form>
+
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
